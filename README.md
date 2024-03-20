@@ -2,6 +2,7 @@
 
 
 How was Django installed and configured:
-1. pip install django  
+1. pip install django
 2. django-admin startproject mysite .
-3. 
+3. python manage.py startapp restaurant_menu
+4. 
