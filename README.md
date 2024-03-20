@@ -9,3 +9,4 @@ How was Django installed and configured:
 5. python manage.py runserver
 6. create models in models.py
 7. python manage.py makemigrations
+8. python manage.py migrate
