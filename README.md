@@ -5,4 +5,5 @@ How was Django installed and configured:
 1. pip install django
 2. django-admin startproject mysite .
 3. python manage.py startapp restaurant_menu
-4. 
+4. add the app to settings.py: INSTALLED_APPS
+5. python manage.py runserver
