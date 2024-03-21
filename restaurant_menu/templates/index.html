@@ -11,6 +11,7 @@
                     {% if row.status == 0 %}
                         <li class="list-group-item d-flex justify-content-between align-items-center border-0 pb-0">
                             <a href="{% url 'item-detail' row.pk %}"><h3><del>{{ row.meal }}</del></h3></a>
+                            <span class="badge bg-primary">{{ row.price }}</span>
                         </li>
                         <li class="list-group-item pt-0">
                             <p><del>{{ row.description }}</del></p>
@@ -18,6 +19,7 @@
                     {% else %}
                         <li class="list-group-item d-flex justify-content-between align-items-center border-0 pb-0">
                             <a href="{% url 'item-detail' row.pk %}"><h3>{{ row.meal }}</h3></a>
+                            <span class="badge bg-primary">{{ row.price }}</span>
                         </li>
                         <li class="list-group-item pt-0">
                             <p>{{ row.description }}</p>
