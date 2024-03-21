@@ -10,3 +10,5 @@ How was Django installed and configured:
 6. create models in models.py
 7. python manage.py makemigrations
 8. python manage.py migrate
+9. add model class to admin.py
+10. python manage.py createsuperuser 
