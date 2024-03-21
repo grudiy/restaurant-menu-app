@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Our Restaurant Menu</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
     <h1>Restaurant Menu</h1>
     {% for meal in meals %}
         <h2>{{ meal.1 }}</h2>
@@ -22,5 +17,4 @@
             {% endif %}
         {% endfor %}
     {% endfor %}
-</body>
-</html>
+{% endblock content %}
